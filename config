@@ -1,0 +1,21 @@
+Host dev.itk.ppke.hu
+User fekete.tamas
+Port 22
+IdentitiesOnly=yes
+PreferredAuthentications publickey
+PasswordAuthentication no
+# CMD
+IdentityFile C:\Users\tomi\.ssh\id_rsa.ppke.git
+# BASH
+IdentityFile /c/Users/tomi/.ssh/id_rsa.ppke.git
+
+Host github.com
+User tamas-fekete
+Port 22
+IdentitiesOnly=yes
+PreferredAuthentications publickey
+PasswordAuthentication no
+# CMD
+IdentityFile C:\Users\tomi\.ssh\id_rsa.github
+# BASH
+IdentityFile /c/Users/tomi/.ssh/id_rsa.github
